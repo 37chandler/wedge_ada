@@ -7,33 +7,27 @@ However, I was concerned about the potential for errors, missing a file, saving 
 
 
 ### Task 1
-Task_1_HP.ipynb
+Task_1_HP.ipynb <br>
 Conects to GBQ and loads inactive files into into GBQ data set, and fixes one file that I couldn't get to transfer.
 
-schema_for_cloud.txt
+schema_for_cloud.txt <br>
 Schema file that was used when creating and uploading tables
 
 ### Task 2
-Task_2_HP.ipynb
+Task_2_HP.ipynb<br>
 Connects to GBQ, creates list of owners, creates sample of owners, saves a xopy of the file locally and uploads both of these to GBQ. It then extracts records for all owners in the sample, and then checks the file size to see if I can upload it programaticly.
 I did try to upload but it times out.
 
 ### Task 3
 
-Task_3_Dept_Lookup_Table_HP.ipynb
+Task_3_Dept_Lookup_Table_HP.ipynb<br>
 Creates and loads a lookup table that translates department number to a text description
 
-Task_3_Queries_HP.ipynb
+Task_3_Queries_HP.ipynb<br>
 Runs queries and creates txt files to be used in creation of database
 
-Task_3_DB_HP.ipynb
+Task_3_DB_HP.ipynb<br>
 Creates a SQL database with txt files
-
-Wedge_Task_3_HP.db
-Is the SQL Database that contains 3 tables; sales_by_date_by_hour, sales_by_owner_by_year_by_month, and 
-sales_by_product_description_by_year_by_month.
-
-
 
 ## Query Comparison Results
 
@@ -63,9 +57,7 @@ When calculating relative difference, use the formula
 | Num Rows for 18736  | 12153 | 12153 | 0 | 0 |
 | Product with Most Rows  | banana organic | banana organic | Yes | NA  |
 | Num Rows for that Product  | 908639 | 908639 | 0 | 0 |
-| Product with Fourth-Most Rows  | avocado hass organic, if you consider the green patch donation a product, broccoli organic
-if you don't |avocado hass organic, if you consider the green patch donation a product, broccoli organic
-if you don't | Yes | NA  |
+| Product with Fourth-Most Rows  | avocado hass organic, if you consider the green patch donation a product, broccoli organic if you don't |avocado hass organic, if you consider the green patch donation a product, broccoli organic if you don't | Yes | NA  |
 | Num Rows for that Product  | 456771 for avocados, and 344657 for broccoli| 456771 avocado, 344657 broccoli | 0 | 0 |
 | Num Single Record Products  | 2769 | 2769 |   |   |
 | Year with Highest Portion of Owner Rows  | 2014 | 2014 | Yes/No  | NA |
