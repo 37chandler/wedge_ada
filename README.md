@@ -6,5 +6,5 @@ The Wedge Co-Op is the largest co-operative grocery store in the US and is in Mi
 
 
 Task 1: Building a Transaction Database in Google Big Query <br>
-Task 2: A Sample of Owners <br
+Task 2: A Sample of Owners <br>
 Task 3: Building Summary Tables and a SQL Database
