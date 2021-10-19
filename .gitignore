@@ -1,3 +1,19 @@
+# Text Files
+sales_by_date_by_hour.txt
+sales_by_owner_by_year_by_month.txt
+sales_by_product_description_by_year_by_month.txt
+
+# CSVs
+departments.csv
+list_of_owners.csv
+sample_owners.csv
+
+# keys
+*.json
+
+# database
+Wedge_Task_3_HP.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
